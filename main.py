@@ -14,8 +14,8 @@ def login():
         "Accept": "application/json, text/javascript"
     }
     body = {
-        "stuNum": "180705136",
-        "pwd": "Lipai2323#000229"
+        "stuNum": "自填",
+        "pwd": "自填"
     }
     try:
         res = requests.post(url=login_url, headers=headers, data=body)
